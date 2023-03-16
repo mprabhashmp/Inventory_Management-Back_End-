@@ -1,6 +1,5 @@
 package com.example.monara_backend.Billing.Configuration;
 
-
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.thymeleaf.spring6.SpringTemplateEngine;
@@ -9,7 +8,7 @@ import org.thymeleaf.spring6.templateresolver.SpringResourceTemplateResolver;
 import java.nio.charset.StandardCharsets;
 
 @Configuration
-public class EmailConfiguration {
+public class EmailThymeleafConfiguration {
 
     @Bean
     public SpringTemplateEngine springTemplateEngine(){
